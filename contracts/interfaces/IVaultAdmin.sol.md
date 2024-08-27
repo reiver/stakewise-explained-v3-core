@@ -1,5 +1,9 @@
 # IVaultAdmin (interface)
 
+## Implementations:
+
+* [VaultAdmin](../../contracts/vaults/modules/VaultAdmin.sol)
+
 ## Events
 
 * `event MetadataUpdated(address indexed caller, string metadataIpfsHash)`
