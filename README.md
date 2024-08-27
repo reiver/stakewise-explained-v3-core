@@ -1,10 +1,10 @@
 # StakeWise Explained: v3-core
 
-This is a study guide for the [StakeWise v3-core source-code](https://github.com/stakewise/v3-core).
+This is a study guide for the _StakeWise v3-core source-code_<sup>[[1]](https://github.com/stakewise/v3-core)</sup>.
 
 ## Introduction
 
-**StakeWise** is an open-source<sup>[[1]](https://github.com/stakewise)</sup> EVM blockchain-network staking application.
+**StakeWise** is an open-source<sup>[[2]](https://github.com/stakewise)</sup> EVM blockchain-network staking application.
 It is primarily used on the Ethereum blockchain-network.
 (The Ethereum blockchain-network is the original EVM blovkchain-network.)
 
@@ -19,7 +19,7 @@ This guide focuses on https://github.com/stakewise/v3-core
 
 One place you can start with is:
 
-* [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md)
+* [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md) <---------
 
 ## See Also
 
