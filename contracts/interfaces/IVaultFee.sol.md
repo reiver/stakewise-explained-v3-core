@@ -2,6 +2,18 @@
 
 **IVaultFee** is used to store the vault's fee.
 
+The usage of the word "percent" is a bit misleading — as this seems to be _basis-points_ — i.e., a percentage of a percentage.
+
+So, for example:
+
+* **1** means 0.01%
+* **10** means 0.1%
+* **100** means 1%
+* **1000** means 10%
+* **10000** means 100%
+
+The function `feePercent` should probably have been called `feeBasisPoints` or `feeBPS` (rather than `feePercentage`).
+
 IVaultFee is:
 
 * [IVaultAdmin](IVaultAdmin.sol.md)
