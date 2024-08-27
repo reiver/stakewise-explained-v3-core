@@ -1,5 +1,7 @@
 # VaultFee (abstract contract)
 
+See [IVaultFee](../../../contracts/interfaces/IVaultFee.sol.md) for explanation.
+
 VaultFee is:
 
 * [VaultImmutables](VaultImmutables.sol)
