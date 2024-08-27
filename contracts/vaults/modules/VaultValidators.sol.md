@@ -3,7 +3,7 @@
 VaultValidators is:
 
 * [VaultImmutables](VaultImmutables.sol.md)
-* Initializable
+* Initializable ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol))
 * [VaultAdmin](VaultAdmin.sol.md)
 * [VaultState](VaultState.sol.md)
 * IVaultValidators
