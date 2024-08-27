@@ -4,3 +4,12 @@ VaultAdmin is:
 
 * Initializable ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol))
 * [IVaultAdmin](../../../contracts/interfaces/IVaultAdmin.sol.md)
+
+# Events
+
+* ` event MetadataUpdated(address indexed caller, string metadataIpfsHash)`
+
+# Functions
+
+* `address public override admin` — stores and returns the admin address.
+* `function setMetadata(string calldata metadataIpfsHash) external override` — sets the metadata; the metadata is stored off (this) chain, on IPFS; it seems like this data is stored in the `MetadataUpdated` event.
