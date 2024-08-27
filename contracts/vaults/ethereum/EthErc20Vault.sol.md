@@ -15,6 +15,6 @@ EthErc20Vault is:
 * [VaultOsToken](../../../contracts/vaults/modules/VaultOsToken.sol.md)
 * [VaultMev](../../../contracts/vaults/modules/VaultMev.sol.md)
 * [VaultToken](../../../contracts/vaults/modules/VaultToken.sol.md)
-* VaultEthStaking
+* [VaultEthStaking](../../../contracts/vaults/modules/VaultEthStaking.sol.md)
 * [Multicall](../../../contracts/base/Multicall.sol.md)
 * [IEthErc20Vault](../../../contracts/interfaces/IEthErc20Vault.sol.md)
