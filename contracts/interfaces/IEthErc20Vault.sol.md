@@ -21,5 +21,5 @@ IEthErc20Vault is:
 ## Functions
 
 * `function initialize(bytes calldata params) external payable` — used for both initializing and upgrading; the "security deposit" (for staking?) must be sent as part of call.
-* `function depositAndMintOsToken(address receiver, uint256 osTokenShares, address referrer) external payable returns (uint256)`
+* `function depositAndMintOsToken(address receiver, uint256 osTokenShares, address referrer) external payable returns (uint256)` — desposits assets to the vault and mints OsToken and gives it to the receiver address; i.e.,e you can call this on someone else's behalf.
 * `function updateStateAndDepositAndMintOsToken(address receiver, uint256 osTokenShares, address referrer, IKeeperRewards.HarvestParams calldata harvestParams) external payable returns (uint256)`
