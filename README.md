@@ -7,3 +7,7 @@ This is a study guide for the [StakeWise v3-core source-code](https://github.com
 One place you can start with is:
 
 * [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md)
+
+## Author
+
+This guide was written by [Charles Iliya Krempeaux](http://reiver.link/)
