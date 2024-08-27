@@ -6,6 +6,10 @@ IVaultFee is:
 
 * [IVaultAdmin](IVaultAdmin.sol.md)
 
+## Implementations
+
+* [VaultFee.](../../contracts/vaults/modules/VaultFee.sol.md)
+
 ## Events
 
 * `event FeeRecipientUpdated(address indexed caller, address indexed feeRecipient)` — emitted when the fee recipient (i.e., who, assumingly, received the fee) is updated.
