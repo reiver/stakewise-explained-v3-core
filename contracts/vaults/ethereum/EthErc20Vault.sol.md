@@ -18,3 +18,7 @@ EthErc20Vault is:
 * [VaultEthStaking](../../../contracts/vaults/modules/VaultEthStaking.sol.md)
 * [Multicall](../../../contracts/base/Multicall.sol.md)
 * [IEthErc20Vault](../../../contracts/interfaces/IEthErc20Vault.sol.md)
+
+## Functions
+
+* `function initialize(bytes calldata params) external payable virtual override reinitializer(_version)` — 
