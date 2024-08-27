@@ -33,6 +33,7 @@ For example, if Alice has _10 ETH_, Bob has _5 ETH_, and Charlie has _17 ETH_ â€
 One place you can start with is:
 
 * [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md) <---------
+* [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) & [IEthVaultFactory](contracts/interfaces/IEthVaultFactory.sol)
 
 ## See Also
 
