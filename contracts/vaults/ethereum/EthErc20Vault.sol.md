@@ -7,7 +7,7 @@ EthErc20Vault is:
 * VaultImmutables
 * Initializable ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol))
 * [VaultAdmin](../../../contracts/vaults/modules/VaultAdmin.sol.md)
-* VaultVersion
+* [VaultVersion](../../../contracts/vaults/modules/VaultVersion.sol.md)
 * [VaultFee](../../../contracts/vaults/modules/VaultFee.sol.md)
 * [VaultState](../../../contracts/vaults/modules/VaultState.sol.md)
 * [VaultValidators](../../../contracts/vaults/modules/VaultValidators.sol.md)
