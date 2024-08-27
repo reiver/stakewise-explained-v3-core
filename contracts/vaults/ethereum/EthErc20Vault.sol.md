@@ -6,7 +6,7 @@ EthErc20Vault is:
 
 * VaultImmutables
 * Initializable
-* VaultAdmin
+* [VaultAdmin](../../../contracts/vaults/modules/VaultAdmin.sol.md)
 * VaultVersion
 * VaultFee
 * VaultState
