@@ -17,4 +17,4 @@ EthErc20Vault is:
 * VaultToken
 * VaultEthStaking
 * Multicall
-* IEthErc20Vault
+* [IEthErc20Vault](../../../contracts/interfaces/IEthErc20Vault.sol.md)
