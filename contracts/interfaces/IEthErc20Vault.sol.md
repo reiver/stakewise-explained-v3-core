@@ -13,3 +13,9 @@ IEthErc20Vault is:
 * [IVaultToken](IVaultToken.sol.md)
 * [IVaultEthStaking](IVaultEthStaking.sol.md)
 * [IMulticall](IMulticall.sol.md)
+
+## Functions
+
+* `function initialize(bytes calldata params) external payable`
+* `function depositAndMintOsToken(address receiver, uint256 osTokenShares, address referrer) external payable returns (uint256)`
+* `function updateStateAndDepositAndMintOsToken(address receiver, uint256 osTokenShares, address referrer, IKeeperRewards.HarvestParams calldata harvestParams) external payable returns (uint256)`
