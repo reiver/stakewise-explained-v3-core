@@ -5,7 +5,7 @@ As the name suggests, **EthErc20Vault** is a StakeWise vault that fits the popul
 EthErc20Vault is:
 
 * VaultImmutables
-* Initializable
+* Initializable ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol))
 * [VaultAdmin](../../../contracts/vaults/modules/VaultAdmin.sol.md)
 * VaultVersion
 * VaultFee
