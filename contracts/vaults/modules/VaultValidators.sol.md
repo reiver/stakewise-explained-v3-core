@@ -6,4 +6,4 @@ VaultValidators is:
 * Initializable ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol))
 * [VaultAdmin](VaultAdmin.sol.md)
 * [VaultState](VaultState.sol.md)
-* IVaultValidators
+* [IVaultValidators](../../../contracts/interfaces/IVaultValidators.sol.md)
