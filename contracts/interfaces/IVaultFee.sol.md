@@ -17,5 +17,5 @@ IVaultFee is:
 ## Functions
 
 * `function feeRecipient() external view returns (address)`   returns the address of (assumingly) who receives the fee.
-* `function feePercent() external view returns (uint16)` — returns the fee-percent applied to the vault rewards; the docs says _" The Vault's fee percent in BPS"_; BPS (assumingly) = _basis points_ = 1/100th of 1 percent.
+* `function feePercent() external view returns (uint16)` — returns the fee-percent applied to the vault rewards; the docs says _" The Vault's fee percent in BPS"_; BPS (assumingly) = _basis points_ = 1/100th of 1 percent; i.e., a percentage or a percentage; so if this were to return 10000 that would mean 100% 
 * `function setFeeRecipient(address _feeRecipient) external`— sets the address of (assumingly) who receives the fee; this can only be successfully called by the admin.
