@@ -12,7 +12,7 @@ EthErc20Vault is:
 * VaultState
 * [VaultValidators](../../../contracts/vaults/modules/VaultValidators.sol.md)
 * [VaultEnterExit](../../../contracts/vaults/modules/VaultEnterExit.sol.md)
-* VaultOsToken
+* [VaultOsToken](../../../contracts/vaults/modules/VaultOsToken.sol.md)
 * VaultMev
 * VaultToken
 * VaultEthStaking
