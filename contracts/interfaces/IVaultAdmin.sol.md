@@ -2,7 +2,7 @@
 
 ## Implementations:
 
-* [VaultAdmin](../../contracts/vaults/modules/VaultAdmin.sol)
+* [VaultAdmin](../../contracts/vaults/modules/VaultAdmin.sol.md)
 
 ## Events
 
