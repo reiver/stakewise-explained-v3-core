@@ -15,6 +15,19 @@ The main source-code git repositories for it are:
 
 This guide focuses on https://github.com/stakewise/v3-core
 
+## Why
+
+One of the _needs_ for **StakeWise** (and things similar to it) come from how some blockchain-network (such as Ethereum) have minimum staking amount.
+
+For example, on the Ethereum blockchain-network, a validator node need exactly _32 ETH_ to stake.
+
+But what if you want to stake but you have less-than (or more-than) _32 ETH_‽
+
+That is where **StakeWise** (and things similar to it) come into play.
+They let one or more people combine their ETH to stake.
+
+For example, if Alice has _10 ETH_, Bob has _5 ETH_, and Charlie has _17 ETH_ — 10 ETH + 5 ETH + 17 ETH = 32 ETH — then they can combine their funds (through **StakeWise** (and things similar to it)) to stake.
+
 ## Where To Start
 
 One place you can start with is:
