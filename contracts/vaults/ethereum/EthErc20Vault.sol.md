@@ -9,7 +9,7 @@ EthErc20Vault is:
 * [VaultAdmin](../../../contracts/vaults/modules/VaultAdmin.sol.md)
 * VaultVersion
 * [VaultFee](../../../contracts/vaults/modules/VaultFee.sol.md)
-* VaultState
+* [VaultState](../../../contracts/vaults/modules/VaultState.sol.md)
 * [VaultValidators](../../../contracts/vaults/modules/VaultValidators.sol.md)
 * [VaultEnterExit](../../../contracts/vaults/modules/VaultEnterExit.sol.md)
 * [VaultOsToken](../../../contracts/vaults/modules/VaultOsToken.sol.md)
