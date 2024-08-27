@@ -1,4 +1,4 @@
-# EthErc20Vault
+# EthErc20Vault (contract)
 
 As the name suggests, **EthErc20Vault** is a StakeWise vault that fits the popular [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) (fungible token) interface.
 
