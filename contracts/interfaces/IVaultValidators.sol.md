@@ -2,5 +2,5 @@
 
 IVaultValidators is:
 
-* [IVaultAdmin](IVaultAdmin].sol.md)
+* [IVaultAdmin](IVaultAdmin.sol.md)
 * [IVaultState](IVaultState.sol.md)
