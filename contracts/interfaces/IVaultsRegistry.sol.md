@@ -1,5 +1,9 @@
 # IVaultsRegistry (interface)
 
+## Implementations
+
+* [VaultsRegistry](../../contracts/vaults/VaultsRegistry.sol.md)
+
 ## Events
 
 * `event VaultAdded(address indexed caller, address indexed vault)`
