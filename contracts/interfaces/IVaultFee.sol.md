@@ -8,7 +8,7 @@ IVaultFee is:
 
 ## Implementations
 
-* [VaultFee.](../../contracts/vaults/modules/VaultFee.sol.md)
+* [VaultFee](../../contracts/vaults/modules/VaultFee.sol.md)
 
 ## Events
 
