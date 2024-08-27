@@ -14,6 +14,10 @@ IEthErc20Vault is:
 * [IVaultEthStaking](IVaultEthStaking.sol.md)
 * [IMulticall](IMulticall.sol.md)
 
+## Implementations
+
+* [EthErc20Vault](../../contracts/vaults/ethereum/EthErc20Vault.sol.md)
+
 ## Functions
 
 * `function initialize(bytes calldata params) external payable` — used for both initializing and upgrading; the "security deposit" (for staking?) must be sent as part of call.
