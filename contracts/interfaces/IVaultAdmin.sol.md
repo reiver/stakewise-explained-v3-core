@@ -1,6 +1,6 @@
 # IVaultAdmin (interface)
 
-## Implementations:
+## Implementations
 
 * [VaultAdmin](../../contracts/vaults/modules/VaultAdmin.sol.md)
 
