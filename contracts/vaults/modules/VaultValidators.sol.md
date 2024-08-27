@@ -1,5 +1,7 @@
 # VaultValidators (abstract contract)
 
+See [IVaultValidators](../../../contracts/interfaces/IVaultValidators.sol.md) for explanation.
+
 VaultValidators is:
 
 * [VaultImmutables](VaultImmutables.sol.md)
