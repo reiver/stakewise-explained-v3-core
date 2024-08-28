@@ -41,7 +41,7 @@ One place you can start with is:
 * EIP-712
 * ERC-5267
 
-## Questions & Answer
+## Questions & Answers (Q&A)
 
 ### How To Deploy Locally
 
@@ -80,6 +80,12 @@ npm run node
 ```
 npm run full-deploy:eth-local
 ```
+### Foundry Cast
+
+Although **StakeWise** `v3-core` does _not_ use **Foundry**, you can still use **Foundry** `cast` — even when you are running **StakeWise** `v3-core` locally using hardhat.
+
+**Foundry** `cast` can talk to a hardhat RPC-node.
+
 
 ## Author
 
