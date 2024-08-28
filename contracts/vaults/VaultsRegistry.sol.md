@@ -47,6 +47,31 @@ mapping(address => bool) public override factories;
 function factories(address factory) external view returns (bool);
 ```
 
+`VaultsRegistry`'s `addVault()` function looks like this:
+
+```solidity
+function addVault(address vault) external override {
+  if (!factories[msg.sender] && msg.sender != owner()) revert Errors.AccessDenied();
+
+  vaults[vault] = true;
+  emit VaultAdded(msg.sender, vault);
+}
+```
+
+Also, `VaultsRegistry`'s `addVault()` function looks like this:
+
+```solidity
+function addFactory(address factory) external override onlyOwner {
+  if (factories[factory]) revert Errors.AlreadyAdded();
+  factories[factory] = true;
+  emit FactoryAdded(factory);
+}
+```
+
+This suggests that `VaultsRegistry` is just storing the address of the **factories** to make sure that only a **factory** can add a vault to `VaultsRegistry`.
+
+AND THAT THIS IS **NOT** THE PLACE YOU GO TO TO FIND THE FACTORIES.
+
 
 
 ## Is
