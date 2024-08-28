@@ -220,6 +220,34 @@ In particular, pay attention to:
     IEthVault(vault).initialize{value: msg.value}(params);
 ```
 
+[IEthVault](contracts/interfaces/IEthVault.sol.md)'s `initialize()` function is a method that the **vaults** have to implement.
+
+So, for example, if we look at [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md)'s `initialize()` function:
+
+```solidity
+  function initialize(
+    bytes calldata params
+  ) external payable virtual override reinitializer(_version) {
+    // if admin is already set, it's an upgrade
+    if (admin != address(0)) {
+      __EthErc20Vault_initV2();
+      return;
+    }
+    // initialize deployed vault
+    __EthErc20Vault_init(
+      IEthVaultFactory(msg.sender).vaultAdmin(),
+      IEthVaultFactory(msg.sender).ownMevEscrow(),
+      abi.decode(params, (EthErc20VaultInitParams))
+    );
+  }
+```
+We see the `params` parameter used here:
+
+```solidity
+abi.decode(params, (EthErc20VaultInitParams))
+```
+
+And this is passed to the 3rd parameter of the `__EthErc20Vault_init()` function.
 
 ## Author
 
