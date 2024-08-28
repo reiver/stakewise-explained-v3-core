@@ -6,7 +6,7 @@ In particular, they are used to store:
 
 * a **keeper** — ??? [IKeeper](../../../contracts/interfaces/IKeeper.sol.md) ???
 * a **vaults-registry** — ??? [IVaultsRegistry](../../../contracts/interfaces/IVaultsRegistry.sol.md) ???
-* a **validators-registry** — 
+* a **validators-registry** — ??? [IValidatorsRegistry](../../../contracts/interfaces/IValidatorsRegistry.sol.md) ???
 
 ## Internal Variables
 
