@@ -270,6 +270,45 @@ The `struct` `EthErc20VaultInitParams` is defined in the same file as [IEthErc20
 ```
 
 OTHER VAULT-TYPES HAVE THEIR OWN VERSION OF THIS.
+For example:
+
+[IEthVault](contracts/interfaces/IEthVault.sol.md) has:
+
+```solidity
+  /**
+   * @dev Struct for initializing the EthVault contract
+   * @param capacity The Vault stops accepting deposits after exceeding the capacity
+   * @param feePercent The fee percent that is charged by the Vault
+   * @param metadataIpfsHash The IPFS hash of the Vault's metadata file
+   */
+  struct EthVaultInitParams {
+    uint256 capacity;
+    uint16 feePercent;
+    string metadataIpfsHash;
+  }
+```
+
+[IEthFoxVault](contracts/interfaces/IEthFoxVault.sol.md) has:
+
+```solidity
+  /**
+   * @dev Struct for initializing the EthFoxVault contract
+   * @param admin The address of the Vault admin
+   * @param ownMevEscrow The address of the MEV escrow contract
+   * @param capacity The Vault stops accepting deposits after exceeding the capacity
+   * @param feePercent The fee percent that is charged by the Vault
+   * @param metadataIpfsHash The IPFS hash of the Vault's metadata file
+   */
+  struct EthFoxVaultInitParams {
+    address admin;
+    address ownMevEscrow;
+    uint256 capacity;
+    uint16 feePercent;
+    string metadataIpfsHash;
+  }
+```
+
+Etc.
 
 ## Author
 
