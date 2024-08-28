@@ -161,6 +161,15 @@ Added EthErc20Vault implementation to VaultsRegistry
 ```
 And then look for its [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) contract address.
 
+...
+
+So — given that you have the address of the [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) contract for the **vault** type you are interested to do, then —
+
+The next thing you need to do is call its `createVault()` method:
+
+* `function createVault(bytes calldata params, bool isOwnMevEscrow) external payable override returns (address vault) `
+
+
 
 
 ## Author
