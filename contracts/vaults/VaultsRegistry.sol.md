@@ -118,6 +118,10 @@ Added EthBlocklistErc20VaultFactory to VaultsRegistry
 Added EthBlocklistErc20Vault implementation to VaultsRegistry
 ```
 
+The first thing to notice is that there are multiple `EthVaultFactory`.
+
+So, it seems like you have to get the `address` of the `EthVaultFactory` for the vault type that you want.
+
 ## Is
 
 VaultsRegistry is:
