@@ -310,6 +310,8 @@ For example:
 
 Etc.
 
+So that means that the `params` parameter in the function `function createVault(bytes calldata params, bool isOwnMevEscrow) external payable override returns (address vault)` is a way f passing vault-specific data to initialize the vault — where each vault can have different vault-specific data.
+
 ## Author
 
 This guide was written by [Charles Iliya Krempeaux](http://reiver.link/)
