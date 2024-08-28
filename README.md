@@ -147,9 +147,21 @@ EthVaultFactory deployed at 0x????????????????????????????????????????
 
 The address there (that in your output will have the question-marks replace with hexadecimal digits) is the address of the [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) contract.
 
-BUT REMEMBER THAT THERE ARE MULTIPLE [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) CONTRACTS!
+**BUT REMEMBER THAT THERE ARE MULTIPLE [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) CONTRACTS!**
 
 You need to look for the version of the [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) contract for the **vault** that you want to use.
+
+For example, if you wanted to create a [EthErc20Vault](contracts/vaults/ethereum/EthErc20Vault.sol.md) vault, then you would look for this output:
+
+```
+EthErc20Vault deployed at 0x????????????????????????????????????????
+EthVaultFactory deployed at 0x????????????????????????????????????????
+Added EthErc20VaultFactory to VaultsRegistry
+Added EthErc20Vault implementation to VaultsRegistry
+```
+And then look for its [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) contract address.
+
+
 
 ## Author
 
