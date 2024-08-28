@@ -30,6 +30,25 @@ VaultsRegistry ownership transferred to 0x??????????????????????????????????????
 
 One thing that this suggests is that `VaultsRegistry` is holding references to the various **factories** for creating **vaults**.
 
+Within the `VaultsRegistry` source-code, we see the public variables:
+
+```solidity
+mapping(address => bool) public override factories;
+```
+
+[IVaultsRegistry](../../contracts/interfaces/IVaultsRegistry.sol.md) definition for this is:
+
+```solidity
+/**
+ * @notice Registered Factories
+ * @param factory The address of the factory to check whether it is whitelisted
+ * @return `true` for the whitelisted Factory, `false` otherwise
+ */
+function factories(address factory) external view returns (bool);
+```
+
+
+
 ## Is
 
 VaultsRegistry is:
