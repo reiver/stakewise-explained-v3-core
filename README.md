@@ -249,6 +249,26 @@ abi.decode(params, (EthErc20VaultInitParams))
 
 And this is passed to the 3rd parameter of the `__EthErc20Vault_init()` function.
 
+The `struct` `EthErc20VaultInitParams` is defined in the same file as [IEthErc20Vault](contracts/interfaces/IEthErc20Vault.sol.md):
+
+```golang
+  /**
+   * @dev Struct for initializing the EthErc20Vault contract
+   * @param capacity The Vault stops accepting deposits after exceeding the capacity
+   * @param feePercent The fee percent that is charged by the Vault
+   * @param name The name of the ERC20 token
+   * @param symbol The symbol of the ERC20 token
+   * @param metadataIpfsHash The IPFS hash of the Vault's metadata file
+   */
+  struct EthErc20VaultInitParams {
+    uint256 capacity;
+    uint16 feePercent;
+    string name;
+    string symbol;
+    string metadataIpfsHash;
+  }
+```
+
 ## Author
 
 This guide was written by [Charles Iliya Krempeaux](http://reiver.link/)
