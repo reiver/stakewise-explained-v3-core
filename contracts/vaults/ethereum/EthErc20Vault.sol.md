@@ -2,6 +2,11 @@
 
 As the name suggests, **EthErc20Vault** is a StakeWise vault that fits the popular [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) (fungible token) interface.
 
+To other _contracts_ call its constructor:
+
+* [EthBlocklistErc20Vault](../../../contracts/vaults/ethereum/EthBlocklistErc20Vault.sol.md)
+* [EthPrivErc20Vault](../../../contracts/vaults/ethereum/EthPrivErc20Vault.sol.sol.md)
+
 EthErc20Vault is:
 
 * [VaultImmutables](../../../contracts/vaults/modules/VaultImmutables.sol.md)
