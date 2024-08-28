@@ -21,7 +21,7 @@ One of the _needs_ for **StakeWise** (and things similar to it) come from how so
 
 For example, on the Ethereum blockchain-network, a validator node need exactly _32 ETH_ to stake.
 
-But what if you want to stake but you have less-than (or more-than) _32 ETH_‽
+But what if you want to stake but you have less-than (or more-than) _32 ETH_ (that are _not_ multiples of 32)‽
 
 That is where **StakeWise** (and things similar to it) come into play.
 They let one or more people combine their ETH to stake.
