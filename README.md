@@ -251,7 +251,7 @@ And this is passed to the 3rd parameter of the `__EthErc20Vault_init()` function
 
 The `struct` `EthErc20VaultInitParams` is defined in the same file as [IEthErc20Vault](contracts/interfaces/IEthErc20Vault.sol.md):
 
-```golang
+```solidity
   /**
    * @dev Struct for initializing the EthErc20Vault contract
    * @param capacity The Vault stops accepting deposits after exceeding the capacity
@@ -268,6 +268,8 @@ The `struct` `EthErc20VaultInitParams` is defined in the same file as [IEthErc20
     string metadataIpfsHash;
   }
 ```
+
+OTHER VAULT-TYPES HAVE THEIR OWN VERSION OF THIS.
 
 ## Author
 
