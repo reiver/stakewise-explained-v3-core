@@ -36,6 +36,7 @@ One place you can start with is:
 * [EthPrivErc20Vault](contracts/vaults/ethereum/EthPrivErc20Vault.sol.md)
 * [EthBlocklistErc20Vault](contracts/vaults/ethereum/EthBlocklistErc20Vault.sol.md)
 * [EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md) & [IEthVaultFactory](contracts/interfaces/IEthVaultFactory.sol.md)
+* [VaultsRegistry](contracts/vaults/VaultsRegistry.sol.md)
 
 ## See Also
 
