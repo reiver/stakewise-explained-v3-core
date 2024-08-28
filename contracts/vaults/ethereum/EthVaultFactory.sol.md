@@ -9,6 +9,17 @@ Within the `createVault()` method, `implementation` is used as:
 vault = address(new ERC1967Proxy(implementation, ''));
 ```
 
+In the `tasks/eth-full-deploy.ts` and `tasks/eth-full-deploy-local.ts` deployment scripts, it looks like `implementation` is an instance of the following contracts:
+
+* EthVault
+* EthPrivVault
+* EthBlocklistVault
+* EthErc20Vault
+* EthPrivErc20Vault
+* EthBlocklistErc20Vault
+
+## Is
+
 EthVaultFactory is:
 
 * [IEthVaultFactory](../../../contracts/interfaces/IEthVaultFactory.sol.md)
