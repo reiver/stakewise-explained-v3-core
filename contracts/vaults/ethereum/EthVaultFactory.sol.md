@@ -6,7 +6,7 @@ EthVaultFactory is:
 
 ## Internal Variables
 
-* `IVaultsRegistry internal immutable _vaultsRegistry` — 
+* `IVaultsRegistry internal immutable _vaultsRegistry` — [IVaultsRegistry](../../../contracts/interfaces/IVaultsRegistry.sol.md)
 
 ## Public Variables
 
