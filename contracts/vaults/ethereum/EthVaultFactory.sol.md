@@ -11,12 +11,12 @@ vault = address(new ERC1967Proxy(implementation, ''));
 
 In the `tasks/eth-full-deploy.ts` and `tasks/eth-full-deploy-local.ts` deployment scripts, it looks like `implementation` is an instance of the following contracts:
 
-* EthVault
-* EthPrivVault
-* EthBlocklistVault
-* EthErc20Vault
-* EthPrivErc20Vault
-* EthBlocklistErc20Vault
+* [EthVault](EthVault.sol.md)
+* [EthPrivVault](EthPrivVault.sol.md)
+* [EthBlocklistVault](EthBlocklistVault.sol.md)
+* [EthErc20Vault](EthErc20Vault.sol.md)
+* [EthPrivErc20Vault](EthPrivErc20Vault.sol.md)
+* [EthBlocklistErc20Vault](EthBlocklistErc20Vault.sol.md)
 
 ## Is
 
