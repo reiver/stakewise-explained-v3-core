@@ -169,7 +169,56 @@ The next thing you need to do is call its `createVault()` method:
 
 * `function createVault(bytes calldata params, bool isOwnMevEscrow) external payable override returns (address vault) `
 
+`createVault()`'s `params` parameter is opaque.
+What is it‽
+What should you set it to if you want to call `createVault()`‽
 
+But we can figure out what it is —
+
+[EthVaultFactory](contracts/vaults/ethereum/EthVaultFactory.sol.md)'s implementation of `createVault()` is:
+
+```solidity
+  function createVault(
+    bytes calldata params,
+    bool isOwnMevEscrow
+  ) external payable override returns (address vault) {
+    // create vault
+    vault = address(new ERC1967Proxy(implementation, ''));
+
+    // create MEV escrow contract if needed
+    address _mevEscrow;
+    if (isOwnMevEscrow) {
+      _mevEscrow = address(new OwnMevEscrow(vault));
+      // set MEV escrow contract so that it can be initialized in the Vault
+      ownMevEscrow = _mevEscrow;
+    }
+
+    // set admin so that it can be initialized in the Vault
+    vaultAdmin = msg.sender;
+
+    // initialize Vault
+    IEthVault(vault).initialize{value: msg.value}(params);
+
+    // cleanup MEV escrow contract
+    if (isOwnMevEscrow) delete ownMevEscrow;
+
+    // cleanup admin
+    delete vaultAdmin;
+
+    // add vault to the registry
+    _vaultsRegistry.addVault(vault);
+
+    // emit event
+    emit VaultCreated(msg.sender, vault, _mevEscrow, params);
+  }
+```
+
+In particular, pay attention to:
+
+```solidity
+    // initialize Vault
+    IEthVault(vault).initialize{value: msg.value}(params);
+```
 
 
 ## Author
