@@ -41,6 +41,46 @@ One place you can start with is:
 * EIP-712
 * ERC-5267
 
+## Questions & Answer
+
+### How To Deploy Locally
+
+1. Download the **StakeWise** `v3-core` source-code:
+
+```
+git clone https://github.com/stakewise/v3-core
+```
+
+2. Go into the directory for the (downloaded)  **StakeWise** `v3-core` source-code:
+
+```
+cd v3-core
+```
+
+3. Install the dependencies:
+
+```
+npm install
+```
+
+4. Compile the contracts:
+
+```
+npm run compile
+```
+
+5. Start a local hardhat blockchain-network node in a separate terminal:
+
+```
+npm run node
+```
+
+6. Deploy the contracts locally:
+
+```
+npm run full-deploy:eth-local
+```
+
 ## Author
 
 This guide was written by [Charles Iliya Krempeaux](http://reiver.link/)
