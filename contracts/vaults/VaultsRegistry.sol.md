@@ -1,5 +1,7 @@
 # VaultsRegistry (contract)
 
+## Is
+
 VaultsRegistry is:
 
 * Ownable2Step ([openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable2Step.sol))
