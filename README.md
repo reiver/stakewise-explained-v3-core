@@ -4,7 +4,7 @@ This is a study guide for the _StakeWise v3-core source-code_<sup>[[1]](https://
 
 ## Introduction
 
-**StakeWise** is an open-source<sup>[[2]](https://github.com/stakewise)</sup> EVM blockchain-network staking application.
+**StakeWise** is an open-source<sup>[[2]](https://github.com/stakewise)</sup> **staking application** EVM blockchain-networks.
 It is primarily used on the Ethereum blockchain-network.
 (The Ethereum blockchain-network is the original EVM blovkchain-network.)
 
